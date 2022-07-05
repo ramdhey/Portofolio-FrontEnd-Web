@@ -1,0 +1,62 @@
+.dropdown-menu {
+   
+    text-align: center;
+    position: relative;
+    
+  }
+
+  .dropdown-menu li :hover{
+    background-color:#340A8E;
+  }
+
+  
+
+  body{
+    margin: 0px;
+    font-family: "Avenir Next";
+  }
+
+  hr{
+    width: 30%;
+    height: 8px ;
+    color: var(--warna5);
+    margin: 0 auto;
+    opacity: 100%;
+    margin-bottom: 20px;
+    padding: 1.5px;
+}
+
+.kartu{
+  background-color: #340A8E;
+  
+  border-radius: 20px;
+  
+}
+.kartu:hover{
+  background-color: #0d5dc5;
+
+}
+
+  .jumbotron{
+    background-image: url('asset/dek.jpg');
+    background-size: cover;
+    height: 500px;
+  }
+
+  .btn-danger{
+    background-color: #340A8E;
+    border-color: #340A8E;
+    box-shadow : 0px 0px 10px black !important;
+  }
+
+  .btn-danger:hover{
+    background-color: hsl(259, 66%, 42%);
+    border-color: hsl(259, 66%, 42%);
+    box-shadow : 0px 0px 10px black !important;
+
+  }
+
+  .footer{
+    line-height: 50px;
+    margin-bottom: 0;
+  }
